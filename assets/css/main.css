@@ -2490,9 +2490,9 @@ span {
 .footer-bottom.style-2 .footer-wrapper .footer-menu li a {
   color: rgba(255, 255, 255, 0.8);
 }
-.footer-bottom.style-2 .scroll-icon {
+/* .footer-bottom.style-2 .scroll-icon {
   left: 93%;
-}
+} */
 @media (max-width: 1399px) {
   .footer-bottom.style-2 .scroll-icon {
     left: 50%;
