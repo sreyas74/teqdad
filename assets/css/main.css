@@ -3705,7 +3705,7 @@ span {
 }
 
 .swiper-dot-2 {
-  border: 2px dotted var(--theme);
+  /* border: 2px dotted var(--theme); */
   width: 146px;
   height: 41px;
   line-height: 37px;
