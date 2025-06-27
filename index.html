@@ -850,123 +850,214 @@
         </div> -->
 
         <!--<< Testimonial Section Start >>-->
-        <section class="testimonial-section section-padding fix">
-            <div class="container">
-                <div class="testimonial-wrapper">
-                    <div class="swiper testimonial-slider">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="testimonial-items">
-                                    <div class="tesimonial-image bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');">
-                                        <!-- <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div> -->
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="section-title">
-                                            <span>Testimonials</span>
-                                            <h2>Eduprofexo</h2>
-                                        </div>
-                                        <p class="mt-3 mt-md-0">
-                                            Had a very pleasant experience with the team. They did my works very well and they helped me to do everything better in a short time with all the support. And at a very affordable price.
-                                        </p>
-                                        <div class="author-details">
-                                            <h5>Midhun Das</h5>
-                                            <span>Education Consultant</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-items">
-                                    <div class="tesimonial-image bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');">
-                                        <!-- <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div> -->
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="section-title">
-                                            <span>Testimonials</span>
-                                            <h2>RydeEasy</h2>
-                                        </div>
-                                        <p class="mt-3 mt-md-0">
-                                         Teqdad delivered a great website and boosted our online presence through smart digital marketing. Loved working with them!
-                                        </p>
-                                        <div class="author-details">
-                                            <h5>Amal</h5>
-                                            <span>Fleet Executive</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-items">
-                                    <div class="tesimonial-image bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');">
-                                        <!-- <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div> -->
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="section-title">
-                                            <span>Testimonials</span>
-                                            <h2>Renad Automotive</h2>
-                                        </div>
-                                        <p class="mt-3 mt-md-0">
-                                           “Teqdad’s digital marketing team helped us reach more customers and grow our brand online. Impressive results!”
-                                        </p>
-                                        <div class="author-details">
-                                            <h5>Preman</h5>
-                                            <span>Garage Owner</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="testimonial-items">
-                                    <div class="tesimonial-image bg-cover" style="background-image: url('assets/img/testimonial/01.jpg');">
-                                        <!-- <div class="star">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                        </div> -->
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <div class="section-title">
-                                            <span>Testimonials</span>
-                                            <h2>What’s Clients Say </h2>
-                                        </div>
-                                        <p class="mt-3 mt-md-0">
-                                            Nullam dignissim, ante scelerisque the  is euismod fermentum odio sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean a imperdiet risus. Aliquam pellentesque nisi dui eget dapibus enim ornare eu. Morbi nunc metus, maximus eu mauris.
-                                        </p>
-                                        <div class="author-details">
-                                            <h5>Kathryn Murphy</h5>
-                                            <span>Web Designer</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <style>
+.test-section {
+    min-height: 400px;
+}
+
+.test-red {
+    background-color: #dc2626;
+    color: white;
+    padding: 115px;
+}
+
+.test-black {
+    background-color: #000000FF;
+    color: white;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.test-icon {
+    color: #dc2626;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.test-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.test-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.test-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.test-contact i {
+    font-size: 1.2rem;
+    color: #dc2626;
+}
+
+.test-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.test-author {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.test-arrow {
+    position: absolute;
+    bottom: 30px;
+    color: #dc2626;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.test-arrow:hover {
+    opacity: 0.7;
+}
+
+.test-arrow.prev {
+    left: 30px;
+}
+
+.test-arrow.next {
+    right: 30px;
+}
+
+@media (max-width: 768px) {
+    .test-title {
+        font-size: 2rem;
+    }
+
+    .test-red,
+    .test-black {
+        padding: 40px 20px;
+    }
+}
+</style>
+
+<section class="test-section">
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <!-- Red Side -->
+            <div class="col-lg-5">
+                <div class="test-red h-100 d-flex flex-column justify-content-center">
+
+
+                    <div class="mb-4">
+                        <p class="test-subtitle mb-2">What Our Clients Say</p>
+                        <h2 class="test-title">Hear the Roar of<br>Satisfaction!</h2>
                     </div>
-                    <div class="swiper-dot-2">
-                        <div class="dot-2"></div>
+
+                    <p class="test-subtitle mb-4">
+                        Our clients are our biggest advocates. See what they have to say about their experience with
+                        Vamooh.
+                    </p>
+
+                    <div class="test-contact">
+                        <img style="width: 30px;" src="./assets/img/about/Objects12.png" alt="" />
+                        <span>Let's Roar Together</span>
+                    </div>
+                    <div class="test-contact mt-2">
+                        <span>Have a project in mind? Connect with us.</span>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- Black Side -->
+            <div class="col-lg-7">
+                <div class="test-black h-100 d-flex flex-column justify-content-center position-relative">
+                    <img style="width: 60px; margin-bottom: 30px;" src="./assets/img/about/Objects.png" alt="" />
+
+                    <div>
+                        <p class="test-text">We have been working with Vamooh design agency for quite sometime now.
+                            Really happy
+                            with the designs and delivery schedule. Highly recommend to any business looking out for a
+                            design agency.
+                        </p>
+                        <p class="test-author">Shiraj Narayanan</p>
+                    </div>
+
+                    <!-- Arrows -->
+                    <i class="fas fa-chevron-left test-arrow prev"></i>
+                    <i class="fas fa-chevron-right test-arrow next"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+const testimonials = [{
+        text: "We have been working with Vamooh design agency for quite sometime now. Really happy with the designs and delivery schedule. Highly recommend to any business looking out for a design agency.",
+        author: "Shiraj Narayanan"
+    },
+    {
+        text: "Outstanding service and creative solutions! Vamooh transformed our brand identity completely. Their attention to detail and professional approach exceeded our expectations.",
+        author: "Maria Rodriguez"
+    },
+    {
+        text: "Exceptional quality and timely delivery. The team at Vamooh understood our vision perfectly and brought it to life. Highly professional and creative agency.",
+        author: "John Smith"
+    },
+    {
+        text: "Amazing experience working with Vamooh! They delivered exactly what we needed and more. Their creativity and dedication to client satisfaction is unmatched.",
+        author: "Sarah Johnson"
+    }
+];
+
+let current = 0;
+
+function updateTestimonial() {
+    const text = document.querySelector('.test-text');
+    const author = document.querySelector('.test-author');
+
+    text.style.opacity = '0';
+    author.style.opacity = '0';
+
+    setTimeout(() => {
+        text.textContent = testimonials[current].text;
+        author.textContent = testimonials[current].author;
+        text.style.opacity = '1';
+        author.style.opacity = '1';
+    }, 200);
+}
+
+document.querySelector('.test-arrow.prev').addEventListener('click', () => {
+    current = (current === 0) ? testimonials.length - 1 : current - 1;
+    updateTestimonial();
+});
+
+document.querySelector('.test-arrow.next').addEventListener('click', () => {
+    current = (current === testimonials.length - 1) ? 0 : current + 1;
+    updateTestimonial();
+});
+
+setInterval(() => {
+    current = (current === testimonials.length - 1) ? 0 : current + 1;
+    updateTestimonial();
+}, 5000);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const text = document.querySelector('.test-text');
+    const author = document.querySelector('.test-author');
+
+    text.style.transition = 'opacity 0.3s ease';
+    author.style.transition = 'opacity 0.3s ease';
+});
+</script>
+<br><br>
 
         <!--<< Team Section Start >>-->
         <section class="team-section section-padding pt-0 section-bg-2">

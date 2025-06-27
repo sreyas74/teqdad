@@ -7782,3 +7782,37 @@ input.main-search-input::placeholder {
   height: 100%;
   border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
+
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.floating-buttons a {
+  width: 50px;
+  height: 50px;
+  background-color: #25D366; /* WhatsApp green */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.floating-buttons .call-btn {
+  background-color: #007BFF; /* Blue for call */
+}
+
+.floating-buttons a:hover {
+  transform: scale(1.1);
+}
